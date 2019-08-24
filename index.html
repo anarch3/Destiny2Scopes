@@ -1,0 +1,73 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+	<link rel="stylesheet" href="https://getbootstrap.com/docs/4.0/examples/album/album.css">
+	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+</head>
+<body>
+	<header>
+      <div class="bg-dark collapse" id="navbarHeader" style="">
+        <div class="container">
+          <div class="row">
+            <div class="col-sm-8 col-md-7 py-4">
+              <h4 class="text-white">About</h4>
+              <p class="text-muted">Compares various scopes in destiny 2 and their zoom.</p>
+            </div>
+            <div class="col-sm-4 offset-md-1 py-4">
+              <h4 class="text-white">Contact</h4>
+              <ul class="list-unstyled">
+                <li><a href="#" class="text-white">Github Page</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="navbar navbar-dark bg-dark box-shadow">
+        <div class="container d-flex justify-content-between">
+          <a href="#" class="navbar-brand d-flex align-items-center">
+            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="mr-2"><path d="M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z"></path><circle cx="12" cy="13" r="4"></circle></svg>
+            <strong>Destiny 2 Scopes</strong>
+          </a>
+          <button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbarHeader" aria-controls="navbarHeader" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+        </div>
+      </div>
+    </header>
+	<main role="main">
+		<!-- hakke -->
+		<section class="jumbotron text-center">
+			<div class="container">
+				<h1 class="jumbotron-heading">Hakke</h1>
+				<p class="lead text-muted">Häkke is not about exciting form, it is about exciting function</p>
+			</div>
+		</section>
+		<div class="album py-5 bg-light">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-6">
+						<div class="card mb-4 box-shadow" style="width: 533px;">
+							<img class="card-img-top" style="height: 300px; width: 533px; display: block;" src="images\atc_rex\zoomed.png" onmouseover="this.src='images/atc_rex/unzoomed.png';" onmouseout="this.src='images/atc_rex/zoomed.png';">
+							<div class="card-body">
+								<p class="card-text">ATC Rex</p>
+								<small class="text-muted">Short Zoom (Long Shadow) 5x</small>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-6">
+						<div class="card mb-4 box-shadow" style="width: 533px;">
+							<img class="card-img-top" style="height: 300px; width: 533px; display: block;" src="images\atd_raptor\zoomed.png" onmouseover="this.src='images/atd_raptor/unzoomed.png';" onmouseout="this.src='images/atd_raptor/zoomed.png';">
+							<div class="card-body">
+								<p class="card-text">ATD Raptor</p>
+								<small class="text-muted">Medium Zoom (Long Shadow) 5.15x</small>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</main>
+</body>
